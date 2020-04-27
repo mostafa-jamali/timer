@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="clock"></div>
+        <div id="buttons-container">
+            <button onclick="changeTimeFormat()">24/12</button>
+            <button onclick="setStopwatch()">Stopwatch</button>
+            <button onclick="setTimer()">Timer</button>
+        </div>
+    </div>
+    <p id="lap">
+        <ol id="laps"></ol>
+    </p>
+    <script src="main.js"></script>
+</body>
+
+</html>
